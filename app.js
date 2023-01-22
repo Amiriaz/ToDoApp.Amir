@@ -1,23 +1,22 @@
   // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js";
-  import { getDatabase,ref,set,push,remove } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js";
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-analytics.js";
+  import { getDatabase,ref,set,push } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-database.js";
   // TODO: Add SDKs for Firebase products that you want to use
   // https://firebase.google.com/docs/web/setup#available-libraries
 
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   const firebaseConfig = {
-    apiKey: "AIzaSyBi3VK63m0DdFC1VhgtrdJzRmGflrlOej4",
-    authDomain: "javascript10-f88b3.firebaseapp.com",
-    databaseURL: "https://javascript10-f88b3-default-rtdb.firebaseio.com",
-    projectId: "javascript10-f88b3",
-    storageBucket: "javascript10-f88b3.appspot.com",
-    messagingSenderId: "744739698761",
-    appId: "1:744739698761:web:9ab7c3e6e2443819dc2798",
-    measurementId: "G-M26NSY6NDZ"
+    apiKey: "AIzaSyDNpfxf5JGPB1w_o2SnVBsm0D-z5af6rRg",
+    authDomain: "todoapp-ca8fa.firebaseapp.com",
+    databaseURL: "https://todoapp-ca8fa-default-rtdb.firebaseio.com",
+    projectId: "todoapp-ca8fa",
+    storageBucket: "todoapp-ca8fa.appspot.com",
+    messagingSenderId: "642925846189",
+    appId: "1:642925846189:web:b1f01fa3f3a5dcd3f8b024",
+    measurementId: "G-7ZQ3DE3YGF"
   };
-
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
