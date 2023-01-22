@@ -30,8 +30,8 @@ list.innerHTML +=`
 <div class="list-card">
 
 <input id="${todo.key}" type="text" value="${todo.value}" disabled/>
-<button id="${todo.key}edit" onclick="editTodo('${todo.key}')" type="button" class="btn btn-success">Edit</button>
-<button class="box1" id="${todo.key}" onclick="delTodo('${todo.key}')">Delete</button></li>
+<button class="box" id="${todo.key}edit" onclick="editTodo('${todo.key}')" type="button">Edit</button>
+<button class="box1" id="${todo.key}" onclick="delTodo('${todo.key}')" type="button">Delete</button></li>
 </div>`
 let addTodo = {
       todo: todo.value,
